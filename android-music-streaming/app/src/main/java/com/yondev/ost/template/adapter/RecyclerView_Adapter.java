@@ -1,7 +1,7 @@
 package com.yondev.ost.template.adapter;
 
-import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import android.content.Context ;
+import android.support.v7.widget.RecyclerView ;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +22,7 @@ public class RecyclerView_Adapter extends RecyclerView.Adapter<ViewHolder> {
     int selectedID = -1;
     public RecyclerView_Adapter(List<Audio> list, Context context) {
         this.list = list;
-        this.context = context;
+        this.context = context ;
     }
 
     @Override
